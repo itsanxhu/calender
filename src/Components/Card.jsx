@@ -3,7 +3,7 @@ import { EllipsisVertical } from "lucide-react";
 const Card = () => {
   return (
     <div>
-      <div className="h-[5rem] w-[22rem] bg-stone-100 rounded-3xl border-2 border-neutral-400/30 px-5 py-5 flex justify-between active:scale-95 transition-transform duration-200">
+      <div className="h-[5rem] w-[22rem] bg-stone-100 rounded-3xl border-2 border-neutral-400/30 px-5 py-5 flex justify-between active:scale-95 transition-transform duration-200 shadow-lg">
         <div className="flex justify-center items-center gap-4">
           <div className="w-10">
             <img

@@ -3,7 +3,7 @@ import { ChevronRight, ChevronLeft } from "lucide-react";
 const Calender = () => {
   return (
     <div>
-      <div className="h-[22rem] w-[22rem] bg-stone-100 rounded-3xl border-2 border-neutral-400/30 px-7 py-5 active:scale-95 transition-transform duration-200 cursor-pointer">
+      <div className="h-[22rem] w-[22rem] bg-stone-100 rounded-3xl border-2 border-neutral-400/30 px-7 py-5 active:scale-95 transition-transform duration-200 cursor-pointer shadow-lg">
         {/* Header */}
         <div className="flex font-bold justify-between items-center">
           <p className="bg-neutral-200/70 rounded-full p-1.5 flex justify-center items-center active:scale-95 transition-transform duration-200">
